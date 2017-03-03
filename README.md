@@ -1,5 +1,5 @@
-# RPC Examples
+# Dash-Button RPC
 
-### Description
-
-Some simple examples for using the RPC package to create a RESTful server.
+## Test URL
+   - http://localhost:8080/api/dash/v1/hello
+   

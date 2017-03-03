@@ -1,0 +1,1635 @@
+2017.52.21 19:52:02.295	rpc	[INFO]:	Adding /toyApi/0.1 to set of valid APIs.
+2017.52.21 19:52:02.309	rpc	[INFO]:	Enabling Discovery API Service for api: /toyApi/0.1
+2017.52.21 19:52:02.322	rpc	[INFO]:	Adding /discovery/v1 to set of valid APIs.
+2017.54.21 19:54:41.578	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api/v1/hello.
+
+2017.57.21 19:57:06.292	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api/0.1/hello.
+
+2017.57.21 19:57:28.258	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api/v1/hello.
+
+2017.57.21 19:57:29.787	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api/v1/hello.
+
+2017.00.21 20:00:13.104	rpc	[INFO]:	Adding /dash/v1 to set of valid APIs.
+2017.00.21 20:00:13.118	rpc	[INFO]:	Enabling Discovery API Service for api: /dash/v1
+2017.00.21 20:00:13.131	rpc	[INFO]:	Adding /discovery/v1 to set of valid APIs.
+2017.03.21 20:03:26.098	rpc	[INFO]:	Adding /dash/v1 to set of valid APIs.
+2017.03.21 20:03:26.112	rpc	[INFO]:	Enabling Discovery API Service for api: /dash/v1
+2017.03.21 20:03:26.125	rpc	[INFO]:	Adding /discovery/v1 to set of valid APIs.
+2017.08.21 20:08:58.953	rpc	[INFO]:	Adding /dash/v1 to set of valid APIs.
+2017.08.21 20:08:58.966	rpc	[INFO]:	Enabling Discovery API Service for api: /dash/v1
+2017.08.21 20:08:58.979	rpc	[INFO]:	Adding /discovery/v1 to set of valid APIs.
+2017.09.21 20:09:31.924	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://localhost:8080/api/dash/v1/hello.
+2017.09.21 20:09:31.950	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8]
+    accept-encoding: [gzip, deflate, sdch, br]
+    accept-language: [de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,nl;q=0.2]
+    connection: [keep-alive]
+    cookie: [wp-settings-1=editor%3Dhtml%26libraryContent%3Dbrowse; wp-settings-time-1=1467824202; Idea-d2bac9cd=06e1c05a-03c7-4f18-aaf5-7875c964004f; Idea-d2bac9ce=f8fee1f5-9af5-40f6-935d-c7c9d41f20ee; _ga=GA1.1.101259746.1468494946]
+    host: [localhost:8080]
+    upgrade-insecure-requests: [1]
+    user-agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36]
+
+2017.09.21 20:09:31.950	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.09.21 20:09:31.952	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.09.21 20:09:31.953	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.09.21 20:09:31.957	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.09.21 20:09:31.958	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.11.21 20:11:16.796	rpc	[INFO]:	Adding /dash/v1 to set of valid APIs.
+2017.11.21 20:11:16.809	rpc	[INFO]:	Enabling Discovery API Service for api: /dash/v1
+2017.11.21 20:11:16.822	rpc	[INFO]:	Adding /discovery/v1 to set of valid APIs.
+2017.11.21 20:11:21.175	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://localhost:8080/api/dash/v1/hello.
+2017.11.21 20:11:21.194	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8]
+    accept-encoding: [gzip, deflate, sdch, br]
+    accept-language: [de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,nl;q=0.2]
+    cache-control: [max-age=0]
+    connection: [keep-alive]
+    cookie: [wp-settings-1=editor%3Dhtml%26libraryContent%3Dbrowse; wp-settings-time-1=1467824202; Idea-d2bac9cd=06e1c05a-03c7-4f18-aaf5-7875c964004f; Idea-d2bac9ce=f8fee1f5-9af5-40f6-935d-c7c9d41f20ee; _ga=GA1.1.101259746.1468494946]
+    host: [localhost:8080]
+    upgrade-insecure-requests: [1]
+    user-agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36]
+
+2017.11.21 20:11:21.195	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.11.21 20:11:21.202	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.11.21 20:11:21.203	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.11.21 20:11:21.207	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.11.21 20:11:21.208	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.11.21 20:11:23.420	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://localhost:8080/api/dash/v1/hello.
+2017.11.21 20:11:23.421	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8]
+    accept-encoding: [gzip, deflate, sdch, br]
+    accept-language: [de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,nl;q=0.2]
+    cache-control: [max-age=0]
+    connection: [keep-alive]
+    cookie: [wp-settings-1=editor%3Dhtml%26libraryContent%3Dbrowse; wp-settings-time-1=1467824202; Idea-d2bac9cd=06e1c05a-03c7-4f18-aaf5-7875c964004f; Idea-d2bac9ce=f8fee1f5-9af5-40f6-935d-c7c9d41f20ee; _ga=GA1.1.101259746.1468494946]
+    host: [localhost:8080]
+    upgrade-insecure-requests: [1]
+    user-agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36]
+
+2017.11.21 20:11:23.422	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.11.21 20:11:23.422	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.11.21 20:11:23.423	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.11.21 20:11:23.424	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.11.21 20:11:23.424	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.11.21 20:11:25.396	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://localhost:8080/api/dash/v1/hello.
+2017.11.21 20:11:25.397	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8]
+    accept-encoding: [gzip, deflate, sdch, br]
+    accept-language: [de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,nl;q=0.2]
+    cache-control: [max-age=0]
+    connection: [keep-alive]
+    cookie: [wp-settings-1=editor%3Dhtml%26libraryContent%3Dbrowse; wp-settings-time-1=1467824202; Idea-d2bac9cd=06e1c05a-03c7-4f18-aaf5-7875c964004f; Idea-d2bac9ce=f8fee1f5-9af5-40f6-935d-c7c9d41f20ee; _ga=GA1.1.101259746.1468494946]
+    host: [localhost:8080]
+    upgrade-insecure-requests: [1]
+    user-agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36]
+
+2017.11.21 20:11:25.397	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.11.21 20:11:25.398	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.11.21 20:11:25.398	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.11.21 20:11:25.399	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.11.21 20:11:25.399	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.24.18 17:24:07.796	rpc	[INFO]:	Adding /dash/v1 to set of valid APIs.
+2017.24.18 17:24:07.831	rpc	[INFO]:	Enabling Discovery API Service for api: /dash/v1
+2017.24.18 17:24:07.884	rpc	[INFO]:	Adding /discovery/v1 to set of valid APIs.
+2017.25.18 17:25:00.401	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://localhost:8080/api/dash/v1/hello.
+2017.25.18 17:25:00.451	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8]
+    accept-encoding: [gzip, deflate, sdch, br]
+    accept-language: [de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,nl;q=0.2]
+    connection: [keep-alive]
+    cookie: [wp-settings-1=editor%3Dhtml%26libraryContent%3Dbrowse; wp-settings-time-1=1467824202; Idea-d2bac9cd=06e1c05a-03c7-4f18-aaf5-7875c964004f; Idea-d2bac9ce=f8fee1f5-9af5-40f6-935d-c7c9d41f20ee; _ga=GA1.1.101259746.1468494946]
+    host: [localhost:8080]
+    upgrade-insecure-requests: [1]
+    user-agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36]
+
+2017.25.18 17:25:00.452	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.25.18 17:25:00.454	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.25.18 17:25:00.457	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.25.18 17:25:00.465	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.25.18 17:25:00.468	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.25.18 17:25:49.570	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://localhost:8080/api/dash/v1/hello1.
+2017.25.18 17:25:49.575	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No method found matching HTTP method: GET and url: /api/dash/v1/hello1.
+
+2017.25.18 17:25:53.760	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://localhost:8080/api/dash/v1/hello.
+2017.25.18 17:25:53.761	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8]
+    accept-encoding: [gzip, deflate, sdch, br]
+    accept-language: [de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,nl;q=0.2]
+    connection: [keep-alive]
+    cookie: [wp-settings-1=editor%3Dhtml%26libraryContent%3Dbrowse; wp-settings-time-1=1467824202; Idea-d2bac9cd=06e1c05a-03c7-4f18-aaf5-7875c964004f; Idea-d2bac9ce=f8fee1f5-9af5-40f6-935d-c7c9d41f20ee; _ga=GA1.1.101259746.1468494946]
+    host: [localhost:8080]
+    upgrade-insecure-requests: [1]
+    user-agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36]
+
+2017.25.18 17:25:53.761	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.25.18 17:25:53.762	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.25.18 17:25:53.763	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.25.18 17:25:53.763	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.25.18 17:25:53.763	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.34.18 18:34:10.230	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://localhost:8080/api/dash/v1/hello.
+2017.34.18 18:34:10.244	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8]
+    accept-encoding: [gzip, deflate, sdch, br]
+    accept-language: [de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,nl;q=0.2]
+    cache-control: [max-age=0]
+    connection: [keep-alive]
+    cookie: [wp-settings-1=editor%3Dhtml%26libraryContent%3Dbrowse; wp-settings-time-1=1467824202; Idea-d2bac9cd=06e1c05a-03c7-4f18-aaf5-7875c964004f; Idea-d2bac9ce=f8fee1f5-9af5-40f6-935d-c7c9d41f20ee; _ga=GA1.1.101259746.1468494946]
+    host: [localhost:8080]
+    upgrade-insecure-requests: [1]
+    user-agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36]
+
+2017.34.18 18:34:10.244	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.34.18 18:34:10.245	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.34.18 18:34:10.245	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.34.18 18:34:10.245	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.34.18 18:34:10.245	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.34.18 18:34:13.002	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://localhost:8080/api/dash/v1/hello.
+2017.34.18 18:34:13.003	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8]
+    accept-encoding: [gzip, deflate, sdch, br]
+    accept-language: [de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,nl;q=0.2]
+    cache-control: [max-age=0]
+    connection: [keep-alive]
+    cookie: [wp-settings-1=editor%3Dhtml%26libraryContent%3Dbrowse; wp-settings-time-1=1467824202; Idea-d2bac9cd=06e1c05a-03c7-4f18-aaf5-7875c964004f; Idea-d2bac9ce=f8fee1f5-9af5-40f6-935d-c7c9d41f20ee; _ga=GA1.1.101259746.1468494946]
+    host: [localhost:8080]
+    upgrade-insecure-requests: [1]
+    user-agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36]
+
+2017.34.18 18:34:13.004	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.34.18 18:34:13.004	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.34.18 18:34:13.005	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.34.18 18:34:13.005	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.34.18 18:34:13.006	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.34.18 18:34:17.393	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://localhost:8080/api/dash/v1/hello.
+2017.34.18 18:34:17.394	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8]
+    accept-encoding: [gzip, deflate, sdch, br]
+    accept-language: [de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,nl;q=0.2]
+    cache-control: [max-age=0]
+    connection: [keep-alive]
+    cookie: [wp-settings-1=editor%3Dhtml%26libraryContent%3Dbrowse; wp-settings-time-1=1467824202; Idea-d2bac9cd=06e1c05a-03c7-4f18-aaf5-7875c964004f; Idea-d2bac9ce=f8fee1f5-9af5-40f6-935d-c7c9d41f20ee; _ga=GA1.1.101259746.1468494946]
+    host: [localhost:8080]
+    upgrade-insecure-requests: [1]
+    user-agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36]
+
+2017.34.18 18:34:17.394	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.34.18 18:34:17.394	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.34.18 18:34:17.394	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.34.18 18:34:17.395	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.34.18 18:34:17.395	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.34.18 18:34:19.289	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://localhost:8080/api/dash/v1/hello.
+2017.34.18 18:34:19.290	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8]
+    accept-encoding: [gzip, deflate, sdch, br]
+    accept-language: [de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,nl;q=0.2]
+    cache-control: [max-age=0]
+    connection: [keep-alive]
+    cookie: [wp-settings-1=editor%3Dhtml%26libraryContent%3Dbrowse; wp-settings-time-1=1467824202; Idea-d2bac9cd=06e1c05a-03c7-4f18-aaf5-7875c964004f; Idea-d2bac9ce=f8fee1f5-9af5-40f6-935d-c7c9d41f20ee; _ga=GA1.1.101259746.1468494946]
+    host: [localhost:8080]
+    upgrade-insecure-requests: [1]
+    user-agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36]
+
+2017.34.18 18:34:19.291	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.34.18 18:34:19.291	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.34.18 18:34:19.292	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.34.18 18:34:19.292	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.34.18 18:34:19.293	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.34.18 18:34:20.841	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://localhost:8080/api/dash/v1/hello.
+2017.34.18 18:34:20.842	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8]
+    accept-encoding: [gzip, deflate, sdch, br]
+    accept-language: [de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,nl;q=0.2]
+    cache-control: [max-age=0]
+    connection: [keep-alive]
+    cookie: [wp-settings-1=editor%3Dhtml%26libraryContent%3Dbrowse; wp-settings-time-1=1467824202; Idea-d2bac9cd=06e1c05a-03c7-4f18-aaf5-7875c964004f; Idea-d2bac9ce=f8fee1f5-9af5-40f6-935d-c7c9d41f20ee; _ga=GA1.1.101259746.1468494946]
+    host: [localhost:8080]
+    upgrade-insecure-requests: [1]
+    user-agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36]
+
+2017.34.18 18:34:20.843	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.34.18 18:34:20.843	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.34.18 18:34:20.843	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.34.18 18:34:20.844	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.34.18 18:34:20.845	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.34.18 18:34:22.537	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://localhost:8080/api/dash/v1/hello.
+2017.34.18 18:34:22.539	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8]
+    accept-encoding: [gzip, deflate, sdch, br]
+    accept-language: [de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,nl;q=0.2]
+    cache-control: [max-age=0]
+    connection: [keep-alive]
+    cookie: [wp-settings-1=editor%3Dhtml%26libraryContent%3Dbrowse; wp-settings-time-1=1467824202; Idea-d2bac9cd=06e1c05a-03c7-4f18-aaf5-7875c964004f; Idea-d2bac9ce=f8fee1f5-9af5-40f6-935d-c7c9d41f20ee; _ga=GA1.1.101259746.1468494946]
+    host: [localhost:8080]
+    upgrade-insecure-requests: [1]
+    user-agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36]
+
+2017.34.18 18:34:22.539	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.34.18 18:34:22.540	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.34.18 18:34:22.540	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.34.18 18:34:22.540	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.34.18 18:34:22.541	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.45.18 18:45:30.747	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.45.18 18:45:30.748	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.45.18 18:45:30.749	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.45.18 18:45:30.749	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.45.18 18:45:30.750	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.45.18 18:45:30.750	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.45.18 18:45:30.751	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.45.18 18:45:58.437	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.45.18 18:45:58.438	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.45.18 18:45:58.439	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.45.18 18:45:58.439	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.45.18 18:45:58.440	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.45.18 18:45:58.440	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.45.18 18:45:58.441	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.46.18 18:46:22.701	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.46.18 18:46:22.703	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.46.18 18:46:22.704	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.46.18 18:46:22.704	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.46.18 18:46:22.704	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.46.18 18:46:22.705	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.46.18 18:46:22.705	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.46.18 18:46:34.880	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.46.18 18:46:34.882	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.46.18 18:46:34.883	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.46.18 18:46:34.883	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.46.18 18:46:34.883	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.46.18 18:46:34.884	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.46.18 18:46:34.884	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.47.18 18:47:18.906	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.47.18 18:47:18.908	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.47.18 18:47:18.909	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.47.18 18:47:18.909	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.47.18 18:47:18.910	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.47.18 18:47:18.910	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.47.18 18:47:18.911	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.47.18 18:47:34.061	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.47.18 18:47:34.063	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.47.18 18:47:34.064	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.47.18 18:47:34.064	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.47.18 18:47:34.065	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.47.18 18:47:34.065	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.47.18 18:47:34.065	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.47.18 18:47:55.910	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.47.18 18:47:55.912	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.47.18 18:47:55.912	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.47.18 18:47:55.913	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.47.18 18:47:55.913	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.47.18 18:47:55.913	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.47.18 18:47:55.914	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.48.18 18:48:16.031	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.48.18 18:48:16.033	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.48.18 18:48:16.033	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.48.18 18:48:16.033	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.48.18 18:48:16.034	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.48.18 18:48:16.034	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.48.18 18:48:16.035	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.48.18 18:48:27.894	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.48.18 18:48:27.895	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.48.18 18:48:27.896	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.48.18 18:48:27.896	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.48.18 18:48:27.896	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.48.18 18:48:27.897	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.48.18 18:48:27.897	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.51.18 18:51:36.324	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.51.18 18:51:36.324	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.51.18 18:51:36.325	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.51.18 18:51:36.325	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.51.18 18:51:36.325	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.51.18 18:51:36.326	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.51.18 18:51:36.326	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.55.18 18:55:18.423	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.55.18 18:55:18.424	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.55.18 18:55:18.425	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.55.18 18:55:18.425	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.55.18 18:55:18.426	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.55.18 18:55:18.426	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.55.18 18:55:18.427	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.55.18 18:55:40.454	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.55.18 18:55:40.456	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.55.18 18:55:40.456	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.55.18 18:55:40.457	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.55.18 18:55:40.457	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.55.18 18:55:40.457	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.55.18 18:55:40.458	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.55.18 18:55:48.960	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.55.18 18:55:48.961	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.55.18 18:55:48.961	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.55.18 18:55:48.962	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.55.18 18:55:48.962	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.55.18 18:55:48.963	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.55.18 18:55:48.963	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.55.18 18:55:53.476	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.55.18 18:55:53.477	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.55.18 18:55:53.477	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.55.18 18:55:53.477	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.55.18 18:55:53.478	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.55.18 18:55:53.478	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.55.18 18:55:53.479	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.55.18 18:55:56.768	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.55.18 18:55:56.769	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.55.18 18:55:56.770	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.55.18 18:55:56.770	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.55.18 18:55:56.771	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.55.18 18:55:56.771	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.55.18 18:55:56.772	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.56.18 18:56:01.202	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.56.18 18:56:01.204	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.56.18 18:56:01.204	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.56.18 18:56:01.204	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.56.18 18:56:01.205	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.56.18 18:56:01.205	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.56.18 18:56:01.206	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.56.18 18:56:07.141	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.56.18 18:56:07.142	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.56.18 18:56:07.143	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.56.18 18:56:07.143	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.56.18 18:56:07.143	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.56.18 18:56:07.144	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.56.18 18:56:07.144	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.56.18 18:56:16.216	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.56.18 18:56:16.217	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.56.18 18:56:16.217	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.56.18 18:56:16.218	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.56.18 18:56:16.218	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.56.18 18:56:16.218	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.56.18 18:56:16.219	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.56.18 18:56:20.447	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.56.18 18:56:20.449	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.56.18 18:56:20.449	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.56.18 18:56:20.449	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.56.18 18:56:20.450	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.56.18 18:56:20.450	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.56.18 18:56:20.450	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.57.18 18:57:24.560	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.57.18 18:57:24.561	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.57.18 18:57:24.562	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.57.18 18:57:24.562	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.57.18 18:57:24.562	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.57.18 18:57:24.563	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.57.18 18:57:24.563	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.57.18 18:57:27.582	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.57.18 18:57:27.583	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.57.18 18:57:27.583	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.57.18 18:57:27.584	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.57.18 18:57:27.584	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.57.18 18:57:27.585	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.57.18 18:57:27.585	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.57.18 18:57:31.452	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.57.18 18:57:31.454	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.57.18 18:57:31.455	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.57.18 18:57:31.455	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.57.18 18:57:31.456	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.57.18 18:57:31.456	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.57.18 18:57:31.456	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.57.18 18:57:33.966	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.57.18 18:57:33.967	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.57.18 18:57:33.967	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.57.18 18:57:33.968	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.57.18 18:57:33.968	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.57.18 18:57:33.968	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.57.18 18:57:33.969	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.57.18 18:57:38.049	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.57.18 18:57:38.050	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.57.18 18:57:38.051	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.57.18 18:57:38.051	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.57.18 18:57:38.052	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.57.18 18:57:38.052	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.57.18 18:57:38.052	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.13.18 19:13:14.174	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.13.18 19:13:14.174	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.13.18 19:13:14.175	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.13.18 19:13:14.175	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.13.18 19:13:14.175	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.13.18 19:13:14.175	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.13.18 19:13:14.175	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.14.18 19:14:24.355	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.14.18 19:14:24.356	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.14.18 19:14:24.356	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.14.18 19:14:24.356	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.14.18 19:14:24.356	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.14.18 19:14:24.356	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.14.18 19:14:24.357	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.18.18 19:18:00.268	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.18.18 19:18:00.269	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.18.18 19:18:00.269	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.18.18 19:18:00.270	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.18.18 19:18:00.270	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.18.18 19:18:00.270	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.18.18 19:18:00.270	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.18.18 19:18:55.517	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.18.18 19:18:55.518	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.18.18 19:18:55.518	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.18.18 19:18:55.518	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.18.18 19:18:55.519	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.18.18 19:18:55.519	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.18.18 19:18:55.519	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.23.18 19:23:46.267	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.23.18 19:23:46.268	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.23.18 19:23:46.269	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.23.18 19:23:46.269	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.23.18 19:23:46.269	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.23.18 19:23:46.270	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.23.18 19:23:46.270	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.24.18 19:24:43.451	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.24.18 19:24:43.452	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.24.18 19:24:43.453	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.24.18 19:24:43.453	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.24.18 19:24:43.453	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.24.18 19:24:43.454	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.24.18 19:24:43.454	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.24.18 19:24:56.595	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.24.18 19:24:56.597	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.24.18 19:24:56.597	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.24.18 19:24:56.598	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.24.18 19:24:56.598	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.24.18 19:24:56.599	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.24.18 19:24:56.600	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.25.18 19:25:00.315	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.25.18 19:25:00.317	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.25.18 19:25:00.317	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.25.18 19:25:00.318	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.25.18 19:25:00.318	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.25.18 19:25:00.319	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.25.18 19:25:00.319	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.32.18 19:32:47.588	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.32.18 19:32:47.590	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.32.18 19:32:47.590	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.32.18 19:32:47.590	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.32.18 19:32:47.591	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.32.18 19:32:47.591	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.32.18 19:32:47.592	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.32.18 19:32:49.257	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.32.18 19:32:49.258	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.32.18 19:32:49.258	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.32.18 19:32:49.259	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.32.18 19:32:49.259	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.32.18 19:32:49.259	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.32.18 19:32:49.260	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.32.18 19:32:50.897	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.32.18 19:32:50.898	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.32.18 19:32:50.898	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.32.18 19:32:50.899	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.32.18 19:32:50.899	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.32.18 19:32:50.899	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.32.18 19:32:50.900	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.32.18 19:32:52.697	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.32.18 19:32:52.698	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.32.18 19:32:52.698	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.32.18 19:32:52.699	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.32.18 19:32:52.699	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.32.18 19:32:52.699	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.32.18 19:32:52.700	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
+2017.32.18 19:32:54.334	rpc	[INFO]:	Invoking API: /dash/v1 with HTTP method: GET on url: http://192.168.0.42/api/dash/v1/hello.
+2017.32.18 19:32:54.335	rpc	[FINER]:	
+Request for API /dash/v1:
+  Method: GET
+  Path: /api/dash/v1/hello
+    connection: [close]
+    host: [192.168.0.42]
+
+2017.32.18 19:32:54.335	rpc	[FINE]:	
+Invoking method: hello with:
+  Positional Parameters:
+  Named Parameters:
+
+2017.32.18 19:32:54.336	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2017.32.18 19:32:54.336	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello there!}
+2017.32.18 19:32:54.336	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 116, 104, 101, 114, 101, 33, 34, 10, 125]
+2017.32.18 19:32:54.337	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello there!}
+
